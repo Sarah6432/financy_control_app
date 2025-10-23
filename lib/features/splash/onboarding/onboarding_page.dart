@@ -1,7 +1,7 @@
 import 'package:financy_control/common/constants/app_colors.dart';
 import 'package:financy_control/common/constants/app_text_styles.dart';
-import 'package:financy_control/common/widgets/MultTextButton.dart';
-import 'package:financy_control/common/widgets/PrimaryButton.dart';
+import 'package:financy_control/common/widgets/mult_text_button.dart';
+import 'package:financy_control/common/widgets/primary_button.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingPage extends StatelessWidget {
