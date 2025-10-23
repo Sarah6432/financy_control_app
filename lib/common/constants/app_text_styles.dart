@@ -10,7 +10,16 @@ class AppTextStyles {
   );
 
   static final TextStyle mediumText = GoogleFonts.poppins(
-    fontSize: 20.0,
+    fontSize: 36.0,
+    fontWeight: FontWeight.bold,
+  );
+  static final TextStyle mediumText18 = GoogleFonts.poppins(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w600,
+  );
+
+   static final TextStyle smallText = GoogleFonts.poppins(
+    fontSize: 14.0,
     fontWeight: FontWeight.w500,
   );
 }

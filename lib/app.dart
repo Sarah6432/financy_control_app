@@ -1,4 +1,5 @@
-import 'package:financy_control/features/splash/splash_page.dart';
+import 'package:financy_control/features/splash/onboarding/onboarding_page.dart';
+//import 'package:financy_control/features/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -8,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      home: OnboardingPage(),
     );
   }
 }
